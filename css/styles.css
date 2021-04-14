@@ -1,9 +1,14 @@
 html {
   font-size: 62.5%;
 }
+body {
+  font-size: 1.5rem;
+}
 a {
   color: inherit;
 }
+
+/* Button */
 .btn {
   padding: 1.8rem 2.4rem;
   text-transform: capitalize;
@@ -11,7 +16,6 @@ a {
 
   margin: 4rem;
   text-decoration: none;
-  font-size: 2.5rem;
   transition: box-shadow 0.5s;
 }
 .btn--white {
@@ -21,3 +25,20 @@ a {
 .btn:hover {
   box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
 }
+
+/* Card Group */
+.card-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: blue;
+  border-radius: 11px;
+}
+
+@media screen and (min-width: 800px) {
+  .card-group {
+    flex-direction: row;
+  }
+}
+
+/* Cards */
