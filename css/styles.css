@@ -3,6 +3,7 @@ html {
 }
 body {
   font-size: 1.5rem;
+  padding: 3rem;
 }
 a {
   color: inherit;
@@ -14,31 +15,76 @@ a {
   text-transform: capitalize;
   border-radius: 3.3rem;
 
-  margin: 4rem;
+  margin: 4rem 0rem;
   text-decoration: none;
   transition: box-shadow 0.5s;
+  display: inline-block;
 }
 .btn--white {
   background: white;
 }
 
 .btn:hover {
-  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
 /* Card Group */
 .card-group {
+  border-radius: 11px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   width: 100%;
-  background: blue;
-  border-radius: 11px;
+  max-width: 375px;
+  margin: 0 auto;
+  
 }
 
 @media screen and (min-width: 800px) {
   .card-group {
     flex-direction: row;
+    max-width: 900px;
   }
+  .
 }
 
 /* Cards */
+.card {
+  padding: 3rem 3rem 0rem;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card__heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+}
+.card__body {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+footer {
+  font-family: "Lexend Deca", sans-serif;
+}
+.bright__orange {
+  color: hsl(31, 77%, 52%);
+}
+.dark__cyan {
+  color: hsl(184, 100%, 22%);
+}
+.very__dark__cyan {
+  color: hsl(179, 100%, 13%);
+}
+.card--bright__orange {
+  background: hsl(31, 77%, 52%);
+}
+.card--dark__cyan {
+  background: hsl(184, 100%, 22%);
+}
+.card--very__dark__cyan {
+  background: hsl(179, 100%, 13%);
+}
