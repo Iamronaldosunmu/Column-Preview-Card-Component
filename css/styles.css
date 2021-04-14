@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+a {
+  color: inherit;
+}
+.btn {
+  padding: 1.8rem 2.4rem;
+  text-transform: capitalize;
+  border-radius: 3.3rem;
+
+  margin: 4rem;
+  text-decoration: none;
+  font-size: 2.5rem;
+  transition: box-shadow 0.5s;
+}
+.btn--white {
+  background: white;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+}
