@@ -1,5 +1,7 @@
 # Frontend Mentor - 3-column preview card component solution
-View the live site here https://iamronaldosunmu.github.io/Column-Preview-Card-Component/
+
+Live Site Url: https://iamronaldosunmu.github.io/Column-Preview-Card-Component/
+
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
@@ -8,16 +10,14 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
+    - [Screenshot](#screenshot)  
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 I built a card component for an imaginary website from a challenge I found on frontendmentor.io
@@ -33,12 +33,7 @@ Users should be able to:
 
 (images/Screenshot%20(12).png)
 
-### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
